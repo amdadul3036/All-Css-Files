@@ -1,0 +1,47 @@
+.box {
+  height: 300px;
+  width: 200px;
+  border: 2px solid red;
+  overflow: scroll;
+}
+
+.box2 {
+  height: 300px;
+  width: 200px;
+  border: 2px solid green;
+  overflow-x: scroll;
+}
+box5 {
+  height: 30px;
+  width: 50px;
+  border: 2px solid orangered;
+  text-align: center;
+  transform: scale(0.5);
+}
+.box3 {
+  text-align: center;
+  color: white;
+  background-image: repeating-linear-gradient(56deg, #ec4c76, #8b0e30);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 8px;
+  border-width: initial;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: gray;
+  transform: skewY(20deg);
+ 
+}
+ div:hover{
+     background-color: greenyellow;
+     transform: skewY(20deg);
+     transition: linear;
+ }
+
+ 
+ .tran{
+     text-align: justify;
+     height: 40px;
+     width: 60px;
+     border: 2px solid green;
+ }
