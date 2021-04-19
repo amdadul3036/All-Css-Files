@@ -1,16 +1,19 @@
 <html>
     <head>
         <title>Grid</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <style>
             .GRIDDING{
                 display: grid;
+                place-items:center;
+                
                 grid-template-columns:150px 150px;
                 grid-template-rows: 170px 170px 170px 170px 170px;
 
                 grid-column-gap: 10px;
-                grid-row-gap: 5px; 
+                grid-row-gap: 5px;
+                
             }
-
             body {
                 background-color: #3b404e;
                 height: 100vh;
@@ -26,8 +29,8 @@
             color: #fff;
             border-radius: 4px;
             border: 6px solid #171717;
-
-            position: relative;
+            
+            
             text-align: center;
             
             }
@@ -36,7 +39,7 @@
 
     <body>
         <div class = "GRIDDING">
-            <p class = "item">This is a grid 1</p>
+            <p class = "item align-middle">This is a grid 1</p>
             <p class = "item">This is a grid 2</p>
             <p class = "item">This is a grid 3</p>
             <p class = "item">This is a grid 4</p>
